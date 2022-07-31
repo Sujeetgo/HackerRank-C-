@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+void func(int a, int b){
+    cout<<a+b<<endl;
+    cout<<abs(a-b)<<endl;
+}
+int main(){
+    int c, d;
+    cin>>c>>d;
+    func(c,d);
+}
